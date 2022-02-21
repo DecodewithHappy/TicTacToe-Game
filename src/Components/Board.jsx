@@ -2,6 +2,11 @@ import React, {useState} from 'react'; // use state keyword is required for reac
 import Square from './Square';
 
 function Board() {
+
+  const [board, setBoard] = useState(Array(9).fill(null));
+
+  console.log(board); // it will display 9 elements in the array with null values.
+
   return (
     <div className="board">
     <div className="board-row">
