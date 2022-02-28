@@ -1,12 +1,16 @@
 import React from 'react';
 
-function Square({ value }) {
-  return <button type="button" className="square" onClick = {() => {
-      console.log(value);    // will display the number which will be clicked
-  }}
-  >
+
+function Square({ value, onClick }) {
+  return (
+    <button
+      type="button"
+      className="square"
+      onClick={onClick}
+    >
       {value}
-      </button>;
+    </button>
+  );
 }
 
 export default Square;
