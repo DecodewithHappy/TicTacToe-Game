@@ -2,6 +2,9 @@ import React from 'react';
 
 
 function Square({ value, onClick }) {
+  
+  console.log('square rerender');
+    
   return (
     <button
       type="button"
