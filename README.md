@@ -1,55 +1,64 @@
-# Nano React App Default Javascript Template
+# TIC TAC TOE
 
-The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
+## Table of contents
 
-- `npm start` — This will spawn a development server with a default port of `3000`.
-- `npm run build` — This will output a production build in the `dist` directory.
-
-## Custom port
-
-You can use the `-p` flag to specify a port for development. To do this, you can either run `npm start` with an additional flag:
-
-```
-npm start -- --port 1234
-```
-
-Or edit the `start` script directly:
-
-```
-vite --port 1234
-```
-
-## Adding styles
-
-You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
-
-```js
-import "./index.css";
-```
-
-## Babel transforms
-
-The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
-
-The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Deployment](#deployment)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 
-## Deploy to GitHub Pages
+## Overview
 
-You can also deploy your project using GitHub pages.
-First install the `gh-pages` [package](https://github.com/tschaub/gh-pages):
+### The challenge
 
-`npm i -D gh-pages`
+To build a responsive TIC TAC TOE game using React.
 
-Use the following scripts for deployment:
+### Screenshot
 
-```
-"scripts": {
-  "start": "vite",
-  "build": "vite build",
-  "predeploy": "rm -rf dist && vite build",
-  "deploy": "gh-pages -d dist"
-},
-```
+![](./images/Screenshot-desktop.png)
 
-Then follow the normal procedure in GitHub Pages and select the `gh-pages` branch.
+![](./images/Screenshot-desktop-2.png)
+
+### Links
+
+- Live Site URL: [Click Here]()
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- React
+- Sass
+
+### What I learned
+
+I learned how to use React to make responsive applications using Sass.
+
+### Deployment
+
+#### Deploy Locally
+
+1. Clone this repo by running git clone https://github.com/DecodewithHappy/TicTacToe-Game.git
+2. Install dependencies by running npm install
+3. Run npm run start
+
+### Useful resources
+
+- [Adobe Color](https://color.adobe.com/create/color-wheel) - This is a very good resource to get a varieties of color . I really liked the color wheel and will use it going forward.
+- [Font Awesome](https://fontawesome.com/) - Here we can get several icons, logos which can be used in various places.
+- [Google Fonts](https://fonts.google.com/) - A good resource through which we can get different types of fonts.
+- [React Docs](https://reactjs.org/) - Official documentation of ReactJs
+
+## Author
+
+- Website - [Sayan Poddar](https://github.com/DecodewithHappy/TicTacToe-Game)
+- Frontend Mentor - [@DecodewithHappy](https://www.frontendmentor.io/profile/DecodewithHappy)
+- Linkedin - [@SayanPoddar](https://www.linkedin.com/in/sayan-poddar-71777222a/)
