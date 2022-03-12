@@ -46,7 +46,7 @@ I learned how to use React to make responsive applications using Sass.
 
 #### Deploy Locally
 
-1. Clone this repo by running git clone https://github.com/DecodewithHappy/TicTacToe-Game.git
+1. Clone this repo by running git clone `https://github.com/DecodewithHappy/TicTacToe-Game.git`
 2. Install dependencies by running npm install
 3. Run npm run start
 
